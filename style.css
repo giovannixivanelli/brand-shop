@@ -735,8 +735,8 @@ body {
   }
   .breadcrumbs {
     display: flex;
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    -moz-column-gap: 2px;
+         column-gap: 2px;
   }
   .breadcrumbs__ul {
     display: flex;
@@ -857,8 +857,8 @@ body {
   }
   .breadcrumbs {
     display: flex;
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    -moz-column-gap: 2px;
+         column-gap: 2px;
   }
   .breadcrumbs__ul {
     display: flex;
@@ -983,8 +983,8 @@ body {
   }
   .breadcrumbs {
     display: flex;
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    -moz-column-gap: 2px;
+         column-gap: 2px;
   }
   .breadcrumbs__ul {
     display: flex;
