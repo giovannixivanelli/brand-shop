@@ -673,6 +673,128 @@ body {
     gap: 305px;
   }
 }
+@media (max-width: 461px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .welcome__container {
+    display: flex;
+    flex-direction: column;
+    height: 363px;
+  }
+  .welcome__container__image {
+    display: none;
+  }
+  .welcome__container__title {
+    width: 100%;
+    height: 66px;
+  }
+  .welcome__container__title__bar {
+    width: 12px;
+    height: 66px;
+  }
+  .welcome__container__text {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .welcome__container__text__title {
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .welcome__container__text__title__brand {
+    color: rgb(34, 34, 34);
+    font-weight: 900;
+  }
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+  .catalog__item__image {
+    width: 100%;
+  }
+  .accesories {
+    width: 100%;
+  }
+  .top--head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f3f4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .top--head__title {
+    font-style: normal;
+    color: #f16d7f;
+    font-size: 15px;
+  }
+  .breadcrumbs {
+    display: flex;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+  .breadcrumbs__ul {
+    display: flex;
+    gap: 6px;
+  }
+  .breadcrumbs__li:not(:last-child)::after {
+    padding: 0px 0px;
+  }
+  .breadcrumbs__link {
+    font-size: 10px;
+  }
+  .product__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 41px;
+  }
+  .advantages {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .subscription__background {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 53px;
+    padding-bottom: 140px;
+    gap: 59px;
+  }
+  .subscription__background__comment__quote {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 59px;
+  }
+  .subscription__background__form__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .subscription__background__form__text__word {
+    line-height: 36px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
 @media (max-width: 426px) {
   .center {
     padding-left: 16px;
